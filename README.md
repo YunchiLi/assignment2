@@ -64,7 +64,7 @@ This provides the time - and is one indicate of the network.  If things are slow
 
 Copy the link to download the file "HG001_GRCh37_GIAB_highconf_CG-IllFB-IllGATKHC-Ion-10X-SOLID_CHROM1-X_v.3.3.2_highconf_PGandRTGphasetransfer.vcf.gz".  On your server, download this by typing wget and the full path of the URL.
 
-*Place a unix command(s) to download using wget NA12878's variants.*
+**wget  ftp://ftp-trace.ncbi.nlm.nih.gov/giab/ftp/release/NA12878_HG001/NISTv3.3.2/GRCh37/**
 
 ## 5.  Example by a person's genome.
 This is the pretty much the genome that has been sequenced by the most platforms the most times, and for which we have identified with highest confidence the genetic variants in that person.  The file ends in ".gz", which means it is zipped.  Unzip it
