@@ -17,7 +17,7 @@ We then replace the answer with "**" before and after "**". How many?  Two aster
 ## 1. Logging in
 Please login to trgn510.pmed.io and verify that you are in trgn510.pmed.io using hostname.
 
-*Place the unix command here that tell us our host*
+**hostname**
 ## 2. PATHs and organization.
 There are lots of environmental variables loaded into bash through .bashrc.  One is the $PATH variable.  Any executables within these folders do not require typing a path to run.  For example below we see all the paths where our executables without a path can be located.  In a step below we extend it.
 
