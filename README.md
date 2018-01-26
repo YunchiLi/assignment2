@@ -54,7 +54,7 @@ Ok - that's too many people who have logged on, lets just pipe it to tail to see
 last | tail
 What if we wanted the first 5 lines - there must be a way to take the head of a file, such as the first 5 lines.
 
-*Place a unix command(s) of first 5 people who logged onto this server using "last'
+**last | head -5**
 
 ## 4.  Our network
 I wonder if this server can see the internet.  Can it see google. Lets ping Google with a little message and see how long it takes to respond.
