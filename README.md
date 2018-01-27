@@ -18,6 +18,7 @@ We then replace the answer with "**" before and after "**". How many?  Two aster
 Please login to trgn510.pmed.io and verify that you are in trgn510.pmed.io using hostname.
 
 **hostname**
+
 ## 2. PATHs and organization.
 There are lots of environmental variables loaded into bash through .bashrc.  One is the $PATH variable.  Any executables within these folders do not require typing a path to run.  For example below we see all the paths where our executables without a path can be located.  In a step below we extend it.
 
@@ -116,6 +117,7 @@ Ok - fail.  Another option is by control-v then 'tab'.  That creates a single ch
 Did you notice we piped to head?  If you don't do that you'll be waiting for 4 million numbers to go by.  However, what we want is the unique or distinct numbers.  Instead of piping to head what can we pipe to so the output is only the chomosomes?  Ok - the goal of this course is to teach you how to use all languages and comamnds to quickly get to the goal, so google it. Look for a way to print unique results, and sort will probably be involved.  One command, but several pipes.
 
 **cut -f1 NA12878.variants.vcf | uniq**
+
 The result should be this
 
  
